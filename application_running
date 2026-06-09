@@ -1,0 +1,9 @@
+1.backend
+        => cd backend
+        => python -m pip install -r requirements.txt(if not installed)
+        => uvicorn app.main:app --reload
+
+2.frontend
+        => cd frontend
+        => npm install
+        => npm run dev
